@@ -2,6 +2,7 @@ minecraft/.cache/
 minecraft/logs/
 minecraft/saves/
 minecraft/xaero*/
+minecraft/Xaero*/
 minecraft/crash-reports/
 minecraft/debug/
 minecraft/ponders_watched.json

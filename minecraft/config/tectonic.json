@@ -20,15 +20,15 @@
     "spaghetti_enabled": true
   },
   "continents": {
-    "continents_scale": 0.06,
-    "erosion_scale": 0.17,
+    "continents_scale": 0.04,
+    "erosion_scale": 0.10,
     "flat_terrain_skew": 0.08,
     "jungle_pillars": false,
     "ocean_offset": -1.0,
-    "ridge_scale": 0.16,
+    "ridge_scale": 0.08,
     "river_ice": false,
     "river_lanterns": true,
-    "rolling_hills": false,
+    "rolling_hills": true,
     "underground_rivers": true
   },
   "experimental": {
@@ -45,19 +45,19 @@
     "max_y": 400,
     "min_y": -64,
     "ultrasmooth": false,
-    "vertical_scale": 1.8
+    "vertical_scale": 1.6
   },
   "islands": {
     "enabled": true,
     "noise_multiplier": 0.8,
     "noise_offset": 0.0,
-    "noise_scale": 0.17
+    "noise_scale": 0.10
   },
   "minor_version": 1,
   "oceans": {
-    "deep_ocean_depth": -0.6,
+    "deep_ocean_depth": -0.9,
     "monument_offset": -30,
-    "ocean_depth": -0.3,
+    "ocean_depth": -0.45,
     "remove_frozen_ocean_ice": false
   }
 }

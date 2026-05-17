@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:desert",
+  "features": [
+    "tac:oil_deposit"
+  ],
+  "step": "underground_ores"
+}

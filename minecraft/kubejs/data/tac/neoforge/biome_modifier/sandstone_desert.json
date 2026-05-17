@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:none",
+  "features": [
+    "tac:sandstone"
+  ],
+  "step": "underground_ores"
+}

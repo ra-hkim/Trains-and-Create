@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "tac:nickel_small"
+  ],
+  "step": "underground_ores"
+}

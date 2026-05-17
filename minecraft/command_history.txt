@@ -1,0 +1,50 @@
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/tick sprint 100s
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #c:is_mountain
+/tp @s 715 69 1713
+/locate biome #c:is_mountain
+/locate biome #minecraft:is_mountain
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #minecraft:is_mountain
+/tp @s 527 84 -783
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #minecraft:is_mountain
+/tp @s -471 235 -571
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/chunky center
+/chunky start
+/chunky confirm
+/chunky silent
+/chunky quiet
+/chunky confirm
+/chunky start
+/chunky cancel
+/chunky radius 1000
+/chunky start
+/chunky radius 2000
+/chunky start
+/chunky cancel
+/chunky confirm
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/effect give @a minecraft:night_vision infinite
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #c:is_mountain
+/tp @s 2200 103 1202
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable

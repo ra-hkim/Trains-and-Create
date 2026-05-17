@@ -1,0 +1,14 @@
+minecraft/.cache/
+minecraft/logs/
+minecraft/saves/
+minecraft/xaero*/
+minecraft/crash-reports/
+minecraft/debug/
+minecraft/ponders_watched.json
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/.mixin.out/
+minecraft/mods/
+minecraft/shaderpacks/
+minecraft/resourcepacks/
+minecraft/downloads/

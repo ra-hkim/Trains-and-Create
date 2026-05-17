@@ -1,8 +1,8 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "minecraft:desert",
+  "biomes": "#c:is_jungle",
   "features": [
-    "tac:bauxite_large"
+    "tac:coal_large"
   ],
   "step": "underground_ores"
 }

@@ -6,27 +6,36 @@
     }
   ],
   "lookup_history": [
-    "item:create_sa:netherite_jetpack_chestplate{\"minecraft:custom_data\":{isFlying:0b,tagCooldown:11.0d,tagFuel:1575.0d,tagWater:1575.0d}}",
-    "item:create:brass_block",
-    {
-      "type": "jemi",
-      "uid": "create:brass_ingot"
-    },
-    "item:create_sa:brass_jetpack_chestplate",
-    "item:create_sa:copper_jetpack_chestplate",
-    "item:create_sa:hydraulic_engine",
-    {
-      "type": "jemi",
-      "uid": "create_sa:heat_engine"
-    },
-    "item:create_sa:andesite_jetpack_chestplate",
+    "item:create_sa:brass_jetpack_chestplate{\"minecraft:custom_data\":{isFlying:0b,tagCooldown:7.0d,tagFuel:600.0d,tagWater:600.0d}}",
+    "item:create_sa:netherite_jetpack_chestplate{\"minecraft:custom_data\":{isFlying:0b,tagCooldown:15.0d,tagFuel:600.0d,tagWater:600.0d}}",
     {
       "type": "jemi",
       "uid": "create_sa:steam_engine"
     },
+    "item:create_sa:brass_drill_head",
+    "item:create_sa:brass_drone_item",
+    "item:create_sa:blazing_cleaver",
+    "item:create:zinc_ingot",
+    "item:create_sa:zinc_handle",
+    "item:create_sa:experience_sword",
+    "item:create_sa:heap_of_experience",
+    "item:minecraft:netherite_ingot",
+    "item:minecraft:netherite_block",
     "item:create_sa:brass_exoskeleton_chestplate",
+    "item:create:brass_ingot",
+    "item:create_sa:brass_chestplate",
+    "item:create_sa:large_filling_tank",
+    "item:create_sa:hydraulic_engine",
+    "item:create_sa:experience_pickaxe",
+    "item:create_sa:fan_component",
+    "item:create_sa:brass_cube",
+    "item:create_sa:flamethrower",
+    "item:create_sa:andesite_exoskeleton_chestplate",
+    "item:create_sa:andesite_jetpack_chestplate",
+    "item:create_sa:copper_exoskeleton_chestplate",
+    "item:create_sa:copper_jetpack_chestplate",
+    "item:create:brass_block",
     "biome:minecraft:stony_shore",
-    "#null:c:is_cold",
     "biome:minecraft:stony_peaks",
     "item:minecraft:iron_ore",
     "biome:biomesoplenty:mediterranean_forest",
@@ -111,8 +120,6 @@
     "item:minecraft:redstone_ore",
     "item:create:andesite_alloy",
     "item:create:zinc_nugget",
-    "item:create_sa:fan_component",
-    "item:create:zinc_ingot",
     {
       "type": "item",
       "id": "createrailwaysnavigator:advanced_display_block",
@@ -154,7 +161,6 @@
     "item:fruitsdelight:lychee_jello",
     "item:fruitsdelight:hamimelon_jam",
     "item:fruitsdelight:orange",
-    "item:create_sa:brass_cube",
     "item:create_enchantment_industry:experience_cake",
     "item:fruitsdelight:hawberry_jello",
     "item:create_dragons_plus:light_blue_dye_bucket",
@@ -358,7 +364,6 @@
     "item:create_enchantment_industry:experience_cake_base",
     "item:create_enchantment_industry:super_experience_nugget",
     "item:tfmg:firebox",
-    "item:create_sa:brass_drone_item",
     "item:create:netherite_backtank{\"create:banktank_air\":900}",
     "item:create_sa:brass_shovel",
     "item:create:pulp",
@@ -454,7 +459,6 @@
     "item:tfmg:gasoline_bucket",
     "#fluid:c:fuel",
     "item:minecraft:lava_bucket",
-    "item:create_sa:flamethrower",
     "item:create_enchantment_industry:blaze_forger",
     "item:create_enchantment_industry:blaze_enchanter",
     "item:create_enchantment_industry:printer",
@@ -706,13 +710,11 @@
     "item:create_sa:large_fueling_tank",
     "item:tfmg:lithium_ingot",
     "item:tfmg:flamethrower",
-    "item:create_sa:brass_chestplate",
     "item:create_sa:zinc_boots",
     "item:create_sa:slime_helmet",
     "item:railways:black_locometal_boiler",
     "item:aeronautics:levitite_blend_bucket",
     "item:aeronautics:pearlescent_levitite",
-    "item:create_sa:brass_drill_head",
     {
       "type": "item",
       "id": "create_sa:vault_component",
@@ -834,7 +836,6 @@
     "item:create_sa:slime_boots",
     "item:create_sa:small_fueling_tank",
     "item:createrailwaysnavigator:advanced_display_sloped",
-    "item:create_sa:experience_pickaxe",
     "item:create:copper_sheet",
     "item:create:electron_tube",
     "item:create:blue_table_cloth",
@@ -1260,14 +1261,7 @@
     "item:tfmg:black_multimeter",
     "item:tfmg:hydrogen_bucket",
     "item:tfmg:neon_bucket",
-    "item:tfmg:ethylene_bucket",
-    "item:tfmg:furnace_gas_bucket",
-    "biome:minecraft:old_growth_birch_forest",
-    "item:minecraft:stripped_acacia_wood",
-    "item:minecraft:crimson_fence_gate",
-    "item:minecraft:crimson_fence",
-    "item:minecraft:stone_bricks",
-    "item:minecraft:red_sandstone_stairs"
+    "item:tfmg:ethylene_bucket"
   ],
   "craft_history": [
     "minecraft:redstone_block",
@@ -1275,8 +1269,8 @@
   ],
   "recipe_defaults": {
     "added": [
-      "tfmg:crafting/materials/cinder_block",
-      "biomesoplenty:unmapped_end_stone"
+      "biomesoplenty:unmapped_end_stone",
+      "tfmg:crafting/materials/cinder_block"
     ],
     "tags": {},
     "resolutions": {},

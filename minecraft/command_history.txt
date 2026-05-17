@@ -3,8 +3,6 @@
 /
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
 /tick sprint 100s
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /
@@ -48,3 +46,5 @@
 /locate biome #c:is_mountain
 /tp @s 2200 103 1202
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/recipe
+/reload

@@ -21,7 +21,7 @@
   },
   "continents": {
     "continents_scale": 0.04,
-    "erosion_scale": 0.10,
+    "erosion_scale": 0.1,
     "flat_terrain_skew": 0.08,
     "jungle_pillars": false,
     "ocean_offset": -1.0,
@@ -51,7 +51,7 @@
     "enabled": true,
     "noise_multiplier": 0.8,
     "noise_offset": 0.0,
-    "noise_scale": 0.10
+    "noise_scale": 0.1
   },
   "minor_version": 1,
   "oceans": {

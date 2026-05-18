@@ -1,13 +1,3 @@
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/effect give @a minecraft:night_vision infinite
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/locate biome #c:is_mountain
 /tp @s 2200 103 1202
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /recipe
@@ -48,3 +38,13 @@
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /chunky center
 /chunky start
+/tp 2345 234 345435
+/tp 2345 234 34545
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #c:is_mountain
+/tp @s 5588 86 31367
+/tp @s 5588 200 31367
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/effect give @a minecraft:speed infinite 10
+/effect give @a minecraft:speed infinite 25
+/effect clear

@@ -1,16 +1,16 @@
 {
   "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
   "biomes": {
-    "temperature_multiplier": 1.0,
+    "temperature_multiplier": 1.05,
     "temperature_offset": 0.0,
-    "temperature_scale": 0.25,
+    "temperature_scale": 0.14,
     "vegetation_multiplier": 1.0,
     "vegetation_offset": 0.0,
     "vegetation_scale": 0.25
   },
   "caves": {
     "carvers_enabled": true,
-    "cheese_additive": 0.27,
+    "cheese_additive": 0.24,
     "cheese_enabled": true,
     "depth_cutoff_size": 0.1,
     "depth_cutoff_start": 0.1,
@@ -20,12 +20,12 @@
     "spaghetti_enabled": true
   },
   "continents": {
-    "continents_scale": 0.04,
+    "continents_scale": 0.06,
     "erosion_scale": 0.1,
-    "flat_terrain_skew": 0.08,
+    "flat_terrain_skew": 0.2,
     "jungle_pillars": false,
     "ocean_offset": -1.0,
-    "ridge_scale": 0.08,
+    "ridge_scale": 0.13,
     "river_ice": false,
     "river_lanterns": true,
     "rolling_hills": true,
@@ -37,21 +37,21 @@
   },
   "general": {
     "mod_enabled": true,
-    "snow_start_offset": 198
+    "snow_start_offset": 300
   },
   "global_terrain": {
-    "elevation_boost": 0.7,
+    "elevation_boost": 1.2,
     "lava_tunnels": true,
-    "max_y": 400,
+    "max_y": 512,
     "min_y": -64,
     "ultrasmooth": false,
-    "vertical_scale": 1.6
+    "vertical_scale": 2.0
   },
   "islands": {
     "enabled": true,
-    "noise_multiplier": 0.8,
+    "noise_multiplier": 0.9,
     "noise_offset": 0.0,
-    "noise_scale": 0.1
+    "noise_scale": 0.12
   },
   "minor_version": 1,
   "oceans": {

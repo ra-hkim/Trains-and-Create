@@ -1,6 +1,16 @@
 {
   "favorites": [],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "createfood:chorus_fruit_cream_frosting",
+      "amount": 500
+    },
+    "item:createfood:chorus_fruit_cream_frosting_piping_bag",
+    "item:createfood:chorus_fruit_cream_cake",
+    "item:createfood:chorus_fruit_cream_cake_sweet_berry",
+    "#item:c:chorus_fruit",
+    "biome:regions_unexplored:orchard",
     "item:fruitsdelight:apple_sapling",
     {
       "type": "fluid",
@@ -250,7 +260,6 @@
     "item:fruitsdelight:cranberry_jello_block",
     "item:createfood:condensed_milk_bottle",
     "item:fruitsdelight:fig_chicken_stew",
-    "item:createfood:chorus_fruit_cream_cake_sweet_berry",
     "item:createfood:chocolate_chocolate_pastry",
     "item:createfood:cream_cake_chorus_fruit",
     "item:createfood:beef_bun_cheese_lettuce",
@@ -755,7 +764,6 @@
     "item:createfood:glow_berry_cream_cake_slice",
     "item:createfood:glow_berry_cream_cake_sweet_berry",
     "item:createfood:chorus_fruit_cream_cake_glow_berry",
-    "item:createfood:chorus_fruit_cream_cake",
     "item:createfood:chocolate_toast",
     "item:createfood:chocolate_ice_cream_stick",
     "item:createfood:chocolate_graham_cracker_glow_berry_ice_cream",
@@ -1264,15 +1272,7 @@
       "id": "createfood:cream_pie_filling",
       "amount": 0
     },
-    "item:createfood:chocolate_sugar_dough_small",
-    "item:createfood:chocolate_pie_graham_cracker_slice",
-    "item:createfood:bread_slice_lettuce_tomato",
-    {
-      "type": "fluid",
-      "id": "tfmg:diesel",
-      "amount": 0
-    },
-    "item:offroad:borehead_bearing"
+    "item:createfood:chocolate_sugar_dough_small"
   ],
   "craft_history": [
     "quark:building/crafting/chests/oak_chest",

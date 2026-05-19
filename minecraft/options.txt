@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:1.0
 graphicsMode:1
 guiScale:3
@@ -140,10 +140,10 @@ key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
@@ -174,7 +174,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.change_hotbar:key.keyboard.x
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k

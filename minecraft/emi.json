@@ -1,11 +1,62 @@
 {
-  "favorites": [
-    {
-      "stack": "item:tfmg:fire_extinguisher{\"tfmg:amount\":500}",
-      "recipe": "toomanyrecipeviewers:/tfmg/filling/filled_fire_extinguisher"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "#item:c:leathers",
+    "item:sophisticatedbackpacks:backpack",
+    "#item:c:chests/wooden",
+    "item:quark:ancient_tome{\"quark:tome_enchantments\":{levels:{\"minecraft:knockback\":2}}}",
+    "item:minecraft:string",
+    "#item:c:strings",
+    "item:sophisticatedbackpacks:netherite_backpack",
+    "item:sophisticatedbackpacks:diamond_backpack",
+    "item:sophisticatedbackpacks:gold_backpack",
+    "item:sophisticatedbackpacks:iron_backpack",
+    "item:sophisticatedbackpacks:copper_backpack",
+    {
+      "type": "jemi",
+      "uid": "sophisticatedbackpacks:upgrade_base"
+    },
+    "item:create_sa:brass_jetpack_chestplate",
+    "item:create_sa:brass_exoskeleton_chestplate",
+    {
+      "type": "jemi",
+      "uid": "create_sa:steam_engine"
+    },
+    "item:create_sa:heat_engine",
+    "item:create_sa:netherite_jetpack_chestplate",
+    {
+      "type": "fluid",
+      "id": "tfmg:gasoline",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "create:water_wheel",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "regions_unexplored:hanging_prismarite",
+      "amount": 64
+    },
+    "item:aeronautics:levitite",
+    "item:aeronautics:levitite_blend_bucket",
+    {
+      "type": "fluid",
+      "id": "aeronautics:levitite_blend",
+      "amount": 0
+    },
+    "item:quark:seed_pouch{\"quark:item_count\":640,\"quark:stored_item\":{stack:{count:1,id:\"regions_unexplored:golden_larch_sapling\"}}}",
+    "biome:regions_unexplored:golden_boreal_taiga",
+    "biome:quark:glimmering_weald",
+    {
+      "type": "item",
+      "id": "quark:yellow_crystal_lamp",
+      "amount": 64
+    },
+    "item:quark:oak_chest",
+    "item:minecraft:chest",
+    "item:quark:birch_chest",
     "item:createfood:tater_tots",
     {
       "type": "item",
@@ -38,8 +89,6 @@
     "item:createfood:beef_meatball_stick_1",
     "item:create_enchantment_industry:printer",
     "item:create_sa:heap_of_experience",
-    "item:create_sa:netherite_jetpack_chestplate{\"minecraft:custom_data\":{isFlying:0b,tagCooldown:8.0d,tagFuel:571.0d,tagWater:571.0d}}",
-    "item:create_sa:steam_engine",
     "item:create_sa:portable_drill",
     "item:create_sa:zinc_boots",
     "item:quark:diamond_heart",
@@ -191,7 +240,6 @@
     "item:tfmg:polarizer",
     "item:tfmg:white_multimeter",
     "item:tfmg:transmission",
-    "item:create_sa:brass_jetpack_chestplate{\"minecraft:custom_data\":{isFlying:0b,tagCooldown:7.0d,tagFuel:600.0d,tagWater:600.0d}}",
     "item:create_sa:brass_drill_head",
     "item:create_sa:brass_drone_item",
     "item:create_sa:blazing_cleaver",
@@ -200,7 +248,6 @@
     "item:create_sa:experience_sword",
     "item:minecraft:netherite_ingot",
     "item:minecraft:netherite_block",
-    "item:create_sa:brass_exoskeleton_chestplate",
     "item:create:brass_ingot",
     "item:create_sa:brass_chestplate",
     "item:create_sa:large_filling_tank",
@@ -275,7 +322,6 @@
     },
     "item:veggiesdelight:mature_dandelion",
     "item:kubejs:haunted_backpack",
-    "item:sophisticatedbackpacks:backpack",
     "item:create:zinc_ore",
     "item:create:andesite_alloy",
     "item:create:zinc_nugget",
@@ -336,11 +382,6 @@
     "item:tfmg:coated_circuit_board",
     "item:tfmg:mixer_blade",
     "item:tfmg:copper_grenade",
-    {
-      "type": "fluid",
-      "id": "aeronautics:levitite_blend",
-      "amount": 0
-    },
     "item:tfmg:lime_rebar_concrete",
     {
       "type": "fluid",
@@ -368,9 +409,7 @@
     "item:aeronautics:mounted_potato_cannon",
     "item:createfood:yellow_gelatin_dessert_slice",
     "item:tfmg:rubber_sheet",
-    "item:sophisticatedbackpacks:diamond_backpack",
     "item:sophisticatedbackpacks:backpack{\"sophisticatedcore:accent_color\":-13881243,\"sophisticatedcore:main_color\":-3087822}",
-    "item:sophisticatedbackpacks:copper_backpack",
     "item:create:railway_casing",
     "item:tfmg:magenta_caution_block",
     {
@@ -536,11 +575,6 @@
     "item:tfmg:segmented_display",
     "item:tfmg:pumpjack_hammer",
     "item:tfmg:pumpjack_hammer_head",
-    {
-      "type": "fluid",
-      "id": "tfmg:gasoline",
-      "amount": 0
-    },
     {
       "type": "fluid",
       "id": "tfmg:lpg",
@@ -784,7 +818,6 @@
     "item:tfmg:lithium_ingot",
     "item:create_sa:slime_helmet",
     "item:railways:black_locometal_boiler",
-    "item:aeronautics:levitite_blend_bucket",
     "item:aeronautics:pearlescent_levitite",
     {
       "type": "item",
@@ -980,7 +1013,6 @@
       "id": "sophisticatedcore:xp_still",
       "amount": 0
     },
-    "item:sophisticatedbackpacks:upgrade_base",
     "item:sophisticatedbackpacks:pickup_upgrade",
     "item:sophisticatedbackpacks:filter_upgrade",
     "item:sophisticatedbackpacks:compacting_upgrade",
@@ -989,9 +1021,6 @@
     "item:sophisticatedbackpacks:pump_upgrade",
     "item:sophisticatedbackpacks:smoking_upgrade",
     "item:sophisticatedbackpacks:stack_upgrade_starter_tier",
-    "item:sophisticatedbackpacks:iron_backpack",
-    "item:sophisticatedbackpacks:gold_backpack",
-    "item:sophisticatedbackpacks:netherite_backpack",
     "item:sophisticatedbackpacks:blasting_upgrade",
     "item:sophisticatedbackpacks:stack_upgrade_tier_1",
     "item:minecraft:dark_oak_pressure_plate",
@@ -1237,34 +1266,16 @@
     "item:create:light_blue_seat",
     "item:create:cut_tuff",
     "item:create:polished_cut_asurine",
-    "item:createfood:beef_bun_cheese_onion_bacon_lettuce",
-    "item:createfood:beef_bun_bacon",
-    "item:createfood:butterscotch_chocolate_sweet_roll",
-    "item:createfood:chorus_fruit_pie",
-    "item:createfood:cream_cake_slice_glow_berry",
-    "item:createfood:hash_brown_toast_plate",
-    "item:createfood:toast_plate",
-    "item:createfood:breakfast_plate",
-    "item:createfood:toffee_fudge_bucket",
-    "item:createfood:sliced_red_mushroom_salt",
-    "item:createfood:pasta_plate_mushroom",
-    "item:createfood:honeyed_apple_slice",
-    "item:createfood:hamburger_onion_bacon_lettuce",
-    "item:createfood:butterscotch",
-    "item:createfood:blue_gelatin_dessert_slice",
-    "item:createfood:bacon_bits",
-    {
-      "type": "fluid",
-      "id": "tfmg:heavy_oil",
-      "amount": 120
-    }
+    "item:createfood:beef_bun_cheese_onion_bacon_lettuce"
   ],
   "craft_history": [
+    "quark:building/crafting/chests/oak_chest",
     "minecraft:redstone_block",
     "minecraft:redstone"
   ],
   "recipe_defaults": {
     "added": [
+      "emi:/emi/bucket_filling/aeronautics/levitite_blend",
       "tfmg:crafting/materials/cinder_block"
     ],
     "tags": {},

@@ -124,9 +124,9 @@
 	"Variant Chests" = true
 	"Variant Furnaces" = true
 	"Variant Ladders" = true
-	"Vertical Planks" = true
-	"Vertical Slabs" = true
-	"Wooden Posts" = true
+	"Vertical Planks" = false
+	"Vertical Slabs" = false
+	"Wooden Posts" = false
 	"More Stone Variants" = true
 
 	[building.celebratory_lamps]

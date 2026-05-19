@@ -64,4 +64,4 @@
 	realisticTrains = true
 	#.
 	#Make fuel tanks only accept proper liquid fuels (so water etc can't go into them)
-	realisticFuelTanks = false
+	realisticFuelTanks = true

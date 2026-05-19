@@ -1,5 +1,5 @@
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -46,7 +46,7 @@
 
 [automation]
 	"Chains Connect Blocks" = true
-	Chute = true
+	Chute = false
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
 	"Feeding Trough" = true
@@ -335,7 +335,7 @@
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
-	"Pathfinder Maps" = true
+	"Pathfinder Maps" = false
 	Pickarang = true
 	"Seed Pouch" = true
 	"Skull Pikes" = true
@@ -501,8 +501,8 @@
 [tweaks]
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = true
-	"Better Elytra Rocket" = true
-	"Campfires Boost Elytra" = true
+	"Better Elytra Rocket" = false
+	"Campfires Boost Elytra" = false
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
@@ -1532,7 +1532,7 @@
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true

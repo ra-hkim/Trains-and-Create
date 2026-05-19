@@ -1,6 +1,32 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:fruitsdelight:apple_sapling",
+    {
+      "type": "fluid",
+      "id": "fruitsdelight:apple_jam",
+      "amount": 125
+    },
+    {
+      "type": "fluid",
+      "id": "fruitsdelight:apple_jello",
+      "amount": 1000
+    },
+    "item:fruitsdelight:apple_jello_block",
+    "item:fruitsdelight:apple_jam",
+    "item:fruitsdelight:lemon_jam",
+    "item:fruitsdelight:mango_jello_block",
+    {
+      "type": "fluid",
+      "id": "fruitsdelight:pear_jam",
+      "amount": 1000
+    },
+    "item:fruitsdelight:pear_jam_block",
+    "item:veggiesdelight:turnip_beef_stew",
+    "item:fruitsdelight:orange_marinated_pork",
+    "item:farmersdelight:stove",
+    "item:veggiesdelight:carrot_cake_slice",
+    "item:kubejs:haunted_backpack",
     "#item:c:leathers",
     "item:sophisticatedbackpacks:backpack",
     "#item:c:chests/wooden",
@@ -12,16 +38,8 @@
     "item:sophisticatedbackpacks:gold_backpack",
     "item:sophisticatedbackpacks:iron_backpack",
     "item:sophisticatedbackpacks:copper_backpack",
-    {
-      "type": "jemi",
-      "uid": "sophisticatedbackpacks:upgrade_base"
-    },
     "item:create_sa:brass_jetpack_chestplate",
     "item:create_sa:brass_exoskeleton_chestplate",
-    {
-      "type": "jemi",
-      "uid": "create_sa:steam_engine"
-    },
     "item:create_sa:heat_engine",
     "item:create_sa:netherite_jetpack_chestplate",
     {
@@ -321,7 +339,6 @@
       "amount": 8
     },
     "item:veggiesdelight:mature_dandelion",
-    "item:kubejs:haunted_backpack",
     "item:create:zinc_ore",
     "item:create:andesite_alloy",
     "item:create:zinc_nugget",
@@ -1182,7 +1199,6 @@
     "item:simulated:cyan_handle",
     "item:veggiesdelight:roasted_cauliflower_floret",
     "item:veggiesdelight:turnip_mutton_skewer",
-    "item:veggiesdelight:turnip_beef_stew",
     "item:veggiesdelight:cauliflower_soup",
     "item:veggiesdelight:sweet_potato_pie",
     "item:veggiesdelight:cauliflower_seeds",
@@ -1256,17 +1272,7 @@
       "id": "tfmg:diesel",
       "amount": 0
     },
-    "item:offroad:borehead_bearing",
-    "item:farmersdelight:wooden_basket",
-    "item:simulated:steering_wheel",
-    "item:simulated:throttle_lever",
-    "item:farmersdelight:sweet_berry_cheesecake",
-    "item:create:magenta_table_cloth",
-    "item:create:netherite_diving_helmet",
-    "item:create:light_blue_seat",
-    "item:create:cut_tuff",
-    "item:create:polished_cut_asurine",
-    "item:createfood:beef_bun_cheese_onion_bacon_lettuce"
+    "item:offroad:borehead_bearing"
   ],
   "craft_history": [
     "quark:building/crafting/chests/oak_chest",

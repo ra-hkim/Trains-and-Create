@@ -2,7 +2,7 @@
 	"username": "7f1f1492-3f71-494a-aff0-1d8620d69998",
 	"gender": 0,
 	"bust_size": 0.8,
-	"hurt_sounds": true,
+	"hurt_sounds": false,
 	"breasts_xOffset": 0.013333334,
 	"breasts_yOffset": 0.13777778,
 	"breasts_zOffset": 0.0,

@@ -37,10 +37,10 @@
   },
   "general": {
     "mod_enabled": true,
-    "snow_start_offset": 300
+    "snow_start_offset": 256
   },
   "global_terrain": {
-    "elevation_boost": 1.2,
+    "elevation_boost": 1.0,
     "lava_tunnels": true,
     "max_y": 512,
     "min_y": -64,

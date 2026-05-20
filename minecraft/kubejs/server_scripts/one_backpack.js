@@ -24,5 +24,6 @@ ItemEvents.canPickUp(event => {
 
   if (hasItem) {
     event.cancel()
+    player.tell('You already have this item in your inventory.')
   }
 })

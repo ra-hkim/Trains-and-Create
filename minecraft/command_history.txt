@@ -1,50 +1,50 @@
+/place feature minecraft:ore_emerald
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceablea
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/effect give @a minecraft:night_vision infinite
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/kubejs hand
+/reload
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/d
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/effect give vipkingo1 minecraft:night_vision infinite
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/chunky center
-/chunky start
-/tp 2345 234 345435
-/tp 2345 234 34545
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #c:is_ocean
+/tp @s 2134 292 -3917
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace water
+/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome #c:is_ocean
+/tp @s 928 97 -735
+/effect give @a minecraft:night_vision infinite
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /locate biome #c:is_mountain
-/tp @s 5588 86 31367
-/tp @s 5588 200 31367
+/tp @s -849 98 237]
+/tp @s -849 98 237
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/effect give @a minecraft:speed infinite 10
-/effect give @a minecraft:speed infinite 25
-/effect clear
-/locate biome quark:glimmering_weald
-/tp @s 4399 -41 4080
-/tp ~ 100 ~
-/data get entity
-/data get entity @e
-/data get entity @e[type=simulated:contraption_diagram]
-/kubejs hand
-/tag vipkingo1 add create
-/tag @a list
-/tag @a remove
-/tag @a remove create
-/reload
-/effect give @a fruitsdelight:heal_aura 100
-/effect give @a fruitsdelight:heal_aura 100 10
-/kubejs hand
-/give vipkingo1 minecraft:elytra[minecraft:item_name="'not Elytra'"]
-/reload
-/kill @e[type=minecraft:ender_dragon]
-/reload
-/locate structure minecraft:end_city
-/tp @s -272 ~ 1072
-/locate structure minecraft:end_city
-/reload
-/setblock -423 58 1243 minecraft:end_portal
-/locate biome minecraft:grove
-/tp @s 1673 142 3583
-/locate biome minecraft:badlands
-/tp @s 3116 512 7244
-/c2me
-/spark
-/spark activity
-/spark heapdump
-/spark tps
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
+/locate biome regions_unexplored:prairie
+/tp @s 212 122 2102

@@ -140,10 +140,10 @@ key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_simulated.keyinfo.rotate_mode:key.keyboard.tab
 key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
@@ -199,7 +199,7 @@ key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt
-key_key.wildfire_gender.gender_menu:key.keyboard.g
+key_key.wildfire_gender.gender_menu:key.keyboard.h
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.unknown
 key_key.jade.toggle_liquid:key.keyboard.unknown
@@ -247,7 +247,7 @@ key_key.freecam.configGui:key.keyboard.unknown
 key_key.constructionstick.change_restriction:key.keyboard.unknown
 key_key.constructionstick.change_upgrade:key.keyboard.unknown
 key_key.constructionstick.change_direction:key.keyboard.unknown
-key_key.constructionstick.open_gui:key.keyboard.unknown
+key_key.constructionstick.open_gui:key.keyboard.g
 key_key.constructionstick.undo:key.keyboard.unknown
 key_key.constructionstick.show_previous:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown

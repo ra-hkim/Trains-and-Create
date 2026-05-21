@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_forest",
+  "features": [
+    "tac:iron_large"
+  ],
+  "step": "underground_ores"
+}

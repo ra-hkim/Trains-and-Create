@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "regions_unexplored:redstone_caves"
+  ],
+  "features": [
+    "tac:redstone_large"
+  ],
+  "step": "underground_ores"
+}

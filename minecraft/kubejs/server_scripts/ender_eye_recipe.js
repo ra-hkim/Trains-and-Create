@@ -12,13 +12,13 @@ ServerEvents.recipes(event => {
     ],
     {
     P: 'minecraft:ender_pearl',
-    D: 'minecraft:diamond_block',
-    G: 'minecraft:gold_block',
-    S: 'tfmg:steel_block',
-    A: 'tfmg:aluminum_block',
-    C: 'tfmg:cast_iron_block',
-    B: 'create:brass_block',
-    O: 'create:andesite_alloy_block',
+    D: 'minecraft:diamond',
+    G: 'minecraft:gold_ingot',
+    S: 'tfmg:steel_ingot',
+    A: 'tfmg:aluminum_ingot',
+    C: 'tfmg:cast_iron_ingot',
+    B: 'create:brass_ingot',
+    O: 'create:andesite_alloy',
     R: 'create:blaze_burner',
     L: 'quark:blaze_lantern'
     })
@@ -29,12 +29,13 @@ ServerEvents.recipes(event => {
     'quark:ender_watcher',
     [
       'OBO',
-      'BPB',
+      'RPR',
       'OBO'
     ],
     {
       P: 'minecraft:ender_pearl',
       B: 'minecraft:blaze_powder',
+      R: 'minecraft:redstone',
       O: 'minecraft:obsidian'
     }
   )

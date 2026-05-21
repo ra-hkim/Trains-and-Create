@@ -1,6 +1,5 @@
-// upgrade base recipe
-
 ServerEvents.recipes(event => {
+  // upgrade base recipe
   event.recipes.create.sequenced_assembly(
     [
       CreateItem.of('sophisticatedbackpacks:upgrade_base', 1.0),
@@ -24,11 +23,7 @@ ServerEvents.recipes(event => {
     ]
   ).transitionalItem('kubejs:incomplete_upgrade_base').loops(3)
 
-})
-
-// copper backpack recipe
-
-ServerEvents.recipes(event => {
+  // copper backpack recipe
   event.recipes.create.mechanical_crafting(
     'sophisticatedbackpacks:copper_backpack',
     [
@@ -44,12 +39,8 @@ ServerEvents.recipes(event => {
       B: 'sophisticatedbackpacks:backpack'
     }
   )
-})
 
-// iron backpack recipe
-
-ServerEvents.recipes(event => {
-
+  // iron backpack recipe
   event.recipes.create.sequenced_assembly(
     [
       CreateItem.of('sophisticatedbackpacks:iron_backpack', 1.0),
@@ -72,11 +63,7 @@ ServerEvents.recipes(event => {
     ]
   ).transitionalItem('kubejs:incomplete_iron_backpack').loops(4)
 
-})
-
-// gold backpack recipe
-
-ServerEvents.recipes(event => {
+  // gold backpack recipe
   event.recipes.create.mechanical_crafting(
     'sophisticatedbackpacks:gold_backpack',
     [
@@ -92,17 +79,11 @@ ServerEvents.recipes(event => {
       B: 'sophisticatedbackpacks:iron_backpack'
     }
   )
-})
 
-// haunted backpack recipe
-
-ServerEvents.recipes(event => {
+  // haunted backpack recipe
   event.recipes.create.haunting('kubejs:haunted_backpack','sophisticatedbackpacks:backpack')
-})
 
-// diamond backpack recipe
-
-ServerEvents.recipes(event => {
+  // diamond backpack recipe
   event.recipes.create.sequenced_assembly(
     [
       CreateItem.of('sophisticatedbackpacks:diamond_backpack', 1.0),
@@ -130,11 +111,8 @@ ServerEvents.recipes(event => {
   )
   .transitionalItem('kubejs:incomplete_diamond_backpack')
   .loops(3)
-})
 
-// netherite backpack recipe
-
-ServerEvents.recipes(event => {
+  // netherite backpack recipe
   event.recipes.create.mechanical_crafting(
     'sophisticatedbackpacks:netherite_backpack',
     [
@@ -152,4 +130,58 @@ ServerEvents.recipes(event => {
       B: 'sophisticatedbackpacks:diamond_backpack'
     }
   )
+
+  // copper stack upgrade
+  event.recipes.create.sequenced_assembly(
+    [
+      CreateItem.of('sophisticatedbackpacks:stack_upgrade_starter_tier', 1.0),
+      CreateItem.of('minecraft:copper_ingot', 0.1)
+    ],
+    'sophisticatedbackpacks:upgrade_base',
+    [
+      event.recipes.create.cutting(
+        'kubejs:incomplete_stack_upgrade_starter_tier',
+        'kubejs:incomplete_stack_upgrade_starter_tier'
+      ),
+      event.recipes.create.deploying(
+        'kubejs:incomplete_stack_upgrade_starter_tier',
+        ['kubejs:incomplete_stack_upgrade_starter_tier', 'minecraft:copper_block']
+      ),
+      event.recipes.create.pressing(
+        'kubejs:incomplete_stack_upgrade_starter_tier',
+        'kubejs:incomplete_stack_upgrade_starter_tier'
+      )
+    ]
+  )
+  .transitionalItem('kubejs:incomplete_stack_upgrade_starter_tier')
+  .loops(9)
+
+  // iron stack upgrade
+  event.recipes.create.sequenced_assembly(
+    [
+      CreateItem.of('sophisticatedbackpacks:stack_upgrade_tier_1', 1.0),
+      CreateItem.of('minecraft:iron_ingot', 0.1)
+    ],
+    'sophisticatedbackpacks:stack_upgrade_starter_tier',
+    [
+      event.recipes.create.cutting(
+        'kubejs:incomplete_stack_upgrade_tier_1',
+        'kubejs:incomplete_stack_upgrade_tier_1'
+      ),
+      event.recipes.create.deploying(
+        'kubejs:incomplete_stack_upgrade_tier_1',
+        ['kubejs:incomplete_stack_upgrade_tier_1', 'minecraft:iron_block']
+      ),
+      event.recipes.create.deploying(
+        'kubejs:incomplete_stack_upgrade_tier_1',
+        ['kubejs:incomplete_stack_upgrade_tier_1', 'create:iron_sheet']
+      ),
+      event.recipes.create.pressing(
+        'kubejs:incomplete_stack_upgrade_tier_1',
+        'kubejs:incomplete_stack_upgrade_tier_1'
+      )
+    ]
+  )
+  .transitionalItem('kubejs:incomplete_stack_upgrade_tier_1')
+  .loops(9)
 })

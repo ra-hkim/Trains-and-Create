@@ -8,10 +8,8 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "sophisticatedbackpacks:diamond_backpack" });
   event.remove({ output: "sophisticatedbackpacks:netherite_backpack" });
   // remove backpack stack upgrade
-  event.remove({ output: "sophisticatedbackpacks:stack_upgrade_tier_2" });
-  event.remove({ output: "sophisticatedbackpacks:stack_upgrade_tier_3" });
-  event.remove({ output: "sophisticatedbackpacks:stack_upgrade_tier_4" });
-  event.remove({ output: "sophisticatedbackpacks:stack_upgrade_omega_tier" });
+  event.remove({ output: "/sophisticatedbackpacks:.*stack_upgrade_tier*/" });
+  event.remove({ output: "sophisticatedbackpacks:stack_upgrade_starter_tier" });
   // disable backpack upgrades
   event.remove({ output: "/sophisticatedbackpacks:.*pump_upgrade/" });
   event.remove({ output: "sophisticatedbackpacks:everlasting_upgrade" });

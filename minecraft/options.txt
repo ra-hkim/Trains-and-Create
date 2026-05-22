@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:true
+fullscreen:false
 gamma:1.0
 graphicsMode:1
 guiScale:3
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources","file/tac"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -122,8 +122,8 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.sophisticatedcore.sort:key.mouse.middle
-key_key.sophisticatedcore.transfer_to_storage:key.keyboard.unknown
-key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.unknown
+key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
 key_gui.xaero_open_map:key.keyboard.m
 key_gui.xaero_open_settings:key.keyboard.right.bracket
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
@@ -133,8 +133,8 @@ key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.f6
-key_iris.keybind.toggleShaders:key.keyboard.f7
-key_iris.keybind.shaderPackSelection:key.keyboard.f8
+key_iris.keybind.toggleShaders:key.keyboard.f8
+key_iris.keybind.shaderPackSelection:key.keyboard.f7
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
@@ -174,7 +174,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.h
+key_quark.keybind.change_hotbar:key.keyboard.x
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k

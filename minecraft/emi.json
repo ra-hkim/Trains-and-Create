@@ -20,6 +20,9 @@
     }
   ],
   "lookup_history": [
+    "item:create:depot",
+    "item:create:steam_engine",
+    "item:tfmg:rotor",
     "item:sophisticatedbackpacks:battery_upgrade",
     "#item:sophisticatedbackpacks:upgrade",
     "item:sophisticatedbackpacks:stack_upgrade_omega_tier",
@@ -1303,14 +1306,7 @@
     "item:minecraft:diamond_pickaxe",
     "item:minecraft:diamond_sword",
     "item:minecraft:diamond_hoe",
-    "item:farmersdelight:diamond_knife",
-    {
-      "type": "fluid",
-      "id": "create:honey",
-      "amount": 500
-    },
-    "item:create:haunted_bell",
-    "item:minecraft:note_block"
+    "item:farmersdelight:diamond_knife"
   ],
   "craft_history": [
     "quark:building/crafting/chests/oak_chest",
@@ -1319,9 +1315,9 @@
   ],
   "recipe_defaults": {
     "added": [
+      "kubejs:kjs/quark_ender_watcher",
       "tfmg:crafting/materials/cinder_block",
-      "emi:/emi/bucket_filling/aeronautics/levitite_blend",
-      "kubejs:kjs/quark_ender_watcher"
+      "emi:/emi/bucket_filling/aeronautics/levitite_blend"
     ],
     "tags": {},
     "resolutions": {},

@@ -12,7 +12,6 @@ ItemEvents.canPickUp(event => {
   const item = event.item
 
   if (!TARGET_ITEM.includes(item.id)) return
-
   let hasItem = false
 
   for (let stack of player.inventory.allItems) {
@@ -21,7 +20,6 @@ ItemEvents.canPickUp(event => {
       break
     }
   }
-
   if (hasItem) {
     event.cancel()
     player.tell('You already have this item in your inventory.')

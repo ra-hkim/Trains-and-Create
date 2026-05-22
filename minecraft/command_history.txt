@@ -7,14 +7,6 @@
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
-/
-/fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
 /locate biome #c:is_ocean
 /tp @s 2134 292 -3917
 /fill ~-15 ~-15 ~-15 ~15 ~15 ~15 air replace #minecraft:sculk_replaceable
@@ -48,3 +40,11 @@
 /give @a tfmg:lead_sword[enchantments={levels:{"minecraft:sharpness":255}}] 1
 /reload
 /kubejs hand
+/chunky start
+/chunky radius 3000
+/chunky start
+/chunky cancel
+/chunky confirm
+/time set day
+/time set night
+/reload

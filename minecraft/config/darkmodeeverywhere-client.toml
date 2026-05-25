@@ -35,7 +35,8 @@ METHOD_SHADER_BLACKLIST = [
     "shadows.packmenu.ExtendedMenuScreen",
     "dev.worldgen.tectonic.client.gui.ConfigScreen",
     "de.keksuccino.fancymenu.customization.slideshow.ExternalTextureSlideshowRenderer",
-    "net.createmod.catnip.placement.PlacementClient"
+    "net.createmod.catnip.placement.PlacementClient",
+    "de.keksuccino.fancymenu.util.rendering.ui"
 ]
 #Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to
 #The dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'

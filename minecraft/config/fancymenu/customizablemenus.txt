@@ -63,9 +63,6 @@ net.minecraft.client.gui.screens.ConnectScreen {
 net.minecraft.client.gui.screens.ReceivingLevelScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 com.seibel.distanthorizons.common.wrappers.gui.updater.ChangelogScreen_neoforge {
 }
 
@@ -121,5 +118,8 @@ net.regions_unexplored.internal.config.gui.ConfigScreen {
 }
 
 dev.tr7zw.trender.gui.client.CottonClientScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

@@ -109,21 +109,21 @@ B:enable_element_tilting_controls = 'true';
 
 ##[ui]
 
-B:enable_ui_animations = 'false';
+B:enable_ui_animations = 'true';
 S:ui_scale_v2 = 'auto';
 I:context_menu_hover_open_speed = '1';
 S:ui_theme = 'purple_void';
 B:pip_window_docking = 'true';
 B:enable_ui_blur = 'true';
 F:ui_blur_intensity = '3.0';
-B:use_minecraft_font = 'false';
+B:use_minecraft_font = 'true';
 B:play_ui_click_sounds = 'true';
 B:smooth_font_multiline_rendering = 'false';
 
 
 ##[debug_overlay]
 
-B:show_debug_overlay = 'false';
+B:show_debug_overlay = 'true';
 B:debug_overlay_show_basic_screen_category = 'true';
 B:debug_overlay_show_resources_category = 'true';
 B:debug_overlay_show_system_category = 'true';

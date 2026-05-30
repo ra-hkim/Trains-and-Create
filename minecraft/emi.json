@@ -1,25 +1,19 @@
 {
-  "favorites": [
-    {
-      "stack": "item:constructionstick:netherite_stick{\"constructionstick:destruction\":1b}",
-      "recipe": "constructionstick:smithing_upgrade/netherite_stick_with_template_destruction"
-    },
-    {
-      "stack": "item:tfmg:winding_machine"
-    },
-    {
-      "stack": "item:tfmg:laminated_magnetic_alloy_block"
-    },
-    {
-      "stack": "item:tfmg:electromagnetic_coil{\"tfmg:coil_turns\":100}",
-      "recipe": "toomanyrecipeviewers:/tfmg/winding/electromagnetic_coil"
-    },
-    {
-      "stack": "item:tfmg:copper_spool{\"tfmg:spool_amount\":1000}",
-      "recipe": "tfmg:copper_spool"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "biome:minecraft:cold_ocean",
+    {
+      "type": "item",
+      "id": "minecraft:ender_eye",
+      "amount": 64
+    },
+    "item:minecraft:redstone_ore",
+    "item:minecraft:coal_ore",
+    "biome:regions_unexplored:poppy_fields",
+    "item:tfmg:nickel_ore",
+    "item:tfmg:orange_rebar_concrete_slab",
+    "item:tfmg:lime_multimeter",
+    "item:minecraft:shulker_shell",
     "item:create:depot",
     "item:create:steam_engine",
     "item:tfmg:rotor",
@@ -62,7 +56,6 @@
     "item:sophisticatedbackpacks:gold_backpack",
     "item:sophisticatedbackpacks:diamond_backpack",
     "item:sophisticatedbackpacks:netherite_backpack",
-    "item:minecraft:ender_eye",
     "item:minecraft:oxeye_daisy",
     "#item:c:chorus_fruit",
     "item:createfood:raw_chorus_fruit_cheesecake",
@@ -96,13 +89,11 @@
     "biome:regions_unexplored:ancient_delta",
     "biome:regions_unexplored:redstone_caves",
     "biome:regions_unexplored:redstone_abyss",
-    "item:minecraft:redstone_ore",
     "biome:minecraft:snowy_plains",
     "biome:minecraft:snowy_taiga",
     "item:tfmg:lead_ore",
     "item:createfood:smores_pie",
     "item:createfood:mini_smores_pie",
-    "item:minecraft:coal_ore",
     "item:constructionstick:netherite_stick{\"constructionstick:destruction\":1b}",
     "item:tfmg:concrete_mixture",
     {
@@ -196,7 +187,6 @@
     "item:minecraft:netherite_chestplate",
     "item:minecraft:netherite_sword",
     "item:minecraft:shulker_box",
-    "item:minecraft:shulker_shell",
     "item:tfmg:steel_ingot",
     "item:tfmg:lithium_ingot",
     "item:tfmg:lithium_block",
@@ -407,7 +397,6 @@
     "biome:regions_unexplored:hyacinth_deeps",
     "biome:minecraft:deep_dark",
     "biome:minecraft:birch_forest",
-    "item:tfmg:nickel_ore",
     "item:tfmg:raw_nickel",
     "item:create:crushed_raw_nickel",
     "#item:c:ores/nickel",
@@ -1302,11 +1291,7 @@
     "item:minecraft:diamond_chestplate",
     "item:minecraft:diamond_helmet",
     "item:minecraft:diamond_axe",
-    "item:minecraft:diamond_shovel",
-    "item:minecraft:diamond_pickaxe",
-    "item:minecraft:diamond_sword",
-    "item:minecraft:diamond_hoe",
-    "item:farmersdelight:diamond_knife"
+    "item:minecraft:diamond_shovel"
   ],
   "craft_history": [
     "quark:building/crafting/chests/oak_chest",
@@ -1315,9 +1300,9 @@
   ],
   "recipe_defaults": {
     "added": [
-      "kubejs:kjs/quark_ender_watcher",
       "tfmg:crafting/materials/cinder_block",
-      "emi:/emi/bucket_filling/aeronautics/levitite_blend"
+      "emi:/emi/bucket_filling/aeronautics/levitite_blend",
+      "kubejs:kjs/quark_ender_watcher"
     ],
     "tags": {},
     "resolutions": {},
